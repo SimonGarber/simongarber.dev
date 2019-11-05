@@ -1,22 +1,16 @@
-import React from 'react';
-
-
+import React from "react";
+import "../../scss/nav.scss";
 
 export default function NavBar() {
-    return (
-        <div style={{
-            width:'100%',
-            left:'0',
-            top:'0',
-            position:'relative',
-            background:'gray',
-            height:'50px',
-            textAlign:'center',
-            padding:'2em'
-        }}>
-        <h1 style={{
-            margin:'0'
-        }}>Simon Garber's Portfolio</h1>
-        </div>
-    )
+  return (
+    <div className="nav">
+      <h1
+        style={{
+          margin: "0"
+        }}
+      >
+        Simon Garber's Portfolio
+      </h1>
+    </div>
+  );
 }
