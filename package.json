@@ -15,7 +15,7 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages  -d build",
-    "sass": "node-sass -w src/scss/ -o src/scss/ --recursive"
+    "sass": "node-sass -w public/scss/ -o public/scss/ --recursive"
   },
   "homepage": "https://simongarber.dev",
   "eslintConfig": {
