@@ -1,0 +1,11 @@
+.Counter {
+  background: green;
+  margin: 1rem;
+  width: 16rem; }
+
+.Counter h2 {
+  color: white; }
+
+.Counter button {
+  font-weight: 600;
+  width: 100%; }
