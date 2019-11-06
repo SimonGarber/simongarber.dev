@@ -35,7 +35,8 @@
 .menu.show {
   visibility: visible; }
 
-.menu-branding, .menu-nav {
+.menu-branding,
+.menu-nav {
   display: flex;
   flex-flow: column wrap;
   align-items: center;
@@ -249,13 +250,17 @@ main#home h1 {
 .boxes div:hover span {
   color: #000; }
 
-.btn, .btn-dark, .btn-light {
+.btn,
+.btn-dark,
+.btn-light {
   display: block;
   padding: 0.5rem 1rem;
   border: 0;
   margin-bottom: 0.3rem; }
 
-.btn:hover, .btn-dark:hover, .btn-light:hover {
+.btn:hover,
+.btn-dark:hover,
+.btn-light:hover {
   background: #eece1a;
   color: #000; }
 
