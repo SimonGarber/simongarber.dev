@@ -29,7 +29,7 @@
   position: fixed;
   top: 0;
   width: 100%;
-  opacity: 0.9;
+  opacity: 1;
   visibility: hidden; }
 
 .menu.show {
@@ -65,9 +65,9 @@
   transform: translate3d(0, 0, 0); }
 
 .menu-branding .portrait {
-  width: 250px;
-  height: 250px;
-  background: url("../img/simon_portrait.jpg");
+  width: 500px;
+  height: 500px;
+  background: url("../img/newPortrait2.jpg");
   border-radius: 50%;
   border: solid 3px #eece1a; }
 
@@ -192,7 +192,12 @@ main#home h1 {
   grid-template-areas: "bioimage bio bio" "job1 job2 job3";
   grid-template-columns: repeat(3, 1fr); }
 
+.about-info img {
+  transform: rotate(90deg); }
+
 .about-info .bio-image {
+  height: 240px;
+  width: 260px;
   grid-area: bioimage;
   margin: auto;
   border-radius: 50%;
@@ -323,12 +328,12 @@ main#home h1 {
     transform: translate3d(-100%, 0, 0);
     font-size: 24px; }
   .menu-branding {
-    height: 25vh;
+    height: 30vh;
     transform: translate3d(100%, 0, 0); }
   .menu-branding .portrait {
-    background: url("../img/simon_portrait_small.jpg");
-    width: 150px;
-    height: 150px; }
+    background: url("../img/newPortrait_small.jpg");
+    width: 260px;
+    height: 280px; }
   .about-info {
     grid-template-areas: "bioimage" "bio" "job1" "job2" "job3";
     grid-template-columns: 1fr; }
